@@ -18,20 +18,7 @@ str1 = "oo"
 str2 = "Never let you goooo let me goo. Never let me goo oooo"
 str3 = "cool"
 def replace(str1,str2,str3):
-    sr1=[]
-    sr2=[]
-    sr3=[]
-    for x in str1:
-        sr1.append(x)
-    for y in str2:
-        sr2.append(y)
-    for z in str3:
-        sr3.append(z)
-    
-    test=substring(str1,str2)
-    for x in range(len(test)):
-        for p in range(len(sr1))
-    sr2.pop(0)
-    print(sr2)
+    str2=str2.replace(str1,str3)
+    return str2
 
-replace(str1,str2,str3)
+print(replace(str1,str2,str3))
