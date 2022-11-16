@@ -53,4 +53,4 @@ def get_legal_moves(board,x,y):
             legal.append([x-1,y+a])
     return legal
 
-print(get_legal_moves(board,5,2))
+print(get_legal_moves(board,1,2))
